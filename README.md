@@ -1,9 +1,9 @@
 # Hider and Seeker game using Reinforcement learning stable baseline3
 Ce projet représente une implémentation du jeu hider and seeker (cache-cache) en utilisant Reinforcement learning. Il est composé principalement de 4 fichiers:
-* **hide_seek_env.py:** qui est nécessaire pour créer notre environnement personnalisé custom env, ce fichier contient les méthodes nécessaires pour notre jeu  et l'environnement qui est la classe ```has_env```.
-* **checkenv.py:** qui permet de vérifier l'environnement personnalisé custom env et d'afficher des avertissements supplémentaires si nécessaire.
-* **doublecheck_env.py:** to make sure that rewards seem correct, episodes end, and restart all as expected. .
-* **hide_seek_learn.py:** pour former notre modèle RL et permettre à notre agent de se cacher. 
+* **hide_seek_env.py:** nécessaire pour créer notre environnement personnalisé "custom env", ce fichier contient les méthodes nécessaires pour notre jeu  et l'environnement qui est la classe ```has_env```.
+* **checkenv.py:** permettre de vérifier l'environnement personnalisé "custom env" et afficher des avertissements supplémentaires si trouvés.
+* **doublecheck_env.py:** pour s'assurer que les récompenses semblent correctes, que les épisodes se terminent et que le processus redémarre comme prévu. 
+* **hide_seek_learn.py:** pour former notre modèle RL et permettre à notre agent "Hider" de se cacher. 
 # Tech/Framework Utilisé
 * **Stable baseline3 Framework:**
   Stable-Baselines3 (SB3) est une bibliothèque fournissant des implémentations fiables d'algorithmes d'apprentissage par renforcement dans PyTorch. Elle offre une interface propre et simple,  donnant accès à des algorithmes d'apprentissage par renforcement sans modèle à la pointe de la technologie.
