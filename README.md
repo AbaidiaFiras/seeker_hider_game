@@ -8,5 +8,5 @@ Ce projet représente une implémentation du jeu hider and seeker (cache-cache) 
 to doooooo
 # Installation
 to do 
-## To run my model
+# To run my model
 to dooooo
