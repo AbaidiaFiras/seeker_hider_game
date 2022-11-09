@@ -1,5 +1,5 @@
 # Hider and Seeker game using Reinforcement learning stable baseline3
-Ce projet représente une implémentation du jeu hider and seeker (cache-cache) en utilisant Reinforcement learning. Il est composé de principalement 4 fichiers:
+Ce projet représente une implémentation du jeu hider and seeker (cache-cache) en utilisant Reinforcement learning. Il est composé principalement 4 de fichiers:
 * **hide_seek_env:** 
 * **checkenv:** 
 * **doublecheck_env:** 
