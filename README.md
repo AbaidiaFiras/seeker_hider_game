@@ -4,7 +4,7 @@ Ce projet représente une implémentation du jeu hider and seeker (cache-cache) 
 * **checkenv.py:** permet de vérifier l'environnement personnalisé "custom env" et afficher des avertissements supplémentaires si trouvés.
 * **doublecheck_env.py:** permet de s'assurer que les récompenses semblent correctes, que les épisodes se terminent et que le processus redémarre comme prévu. 
 * **hide_seek_learn.py:** pour former notre modèle RL et permettre à notre agent "Hider" de se cacher. 
-# Q Learning/Framework:
+# Tech/Framework:
 * **Reinforcement learning:**
   est un domaine de l'apprentissage automatique qui s'intéresse à la manière dont les agents intelligents doivent entreprendre des actions dans un environnement afin de maximiser la notion de récompense cumulative.
 * **Stable baseline3 Framework:**
@@ -21,7 +21,8 @@ Ce projet représente une implémentation du jeu hider and seeker (cache-cache) 
 Afin de pouvoir exécuter ce code sur votre poste, vous devez d'aborder installer :
   * Python 3.6 ou +
   * Anaconda  
-  * Stable-baselines3 en utilisant pip , ``` pip install  stable-baselines3 ```
+  * Stable-baselines3 en utilisant ``` pip install  stable-baselines3 ```
+  * Gym openai en utilisant ``` pip install gym ```
 ## 2.Préparer et vérifier l'environnement personnalisé (custom env)
 Pour commencer, notre environnement personnalisé (custom env qui est ```class hasEnv(gym.Env)```) est préparé dans hide_seek_env.py, on doit s'assurer de son fonctionnement avant de l'introduire au gym. Il suffit alors d'exécuter ce code, qui utilise une méthode de Stable Baseline3 SB3 dédié pour le test d'environnement: 
 ```bash
