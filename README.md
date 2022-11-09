@@ -4,7 +4,9 @@ Ce projet représente une implémentation du jeu hider and seeker (cache-cache) 
 * **checkenv.py:** permet de vérifier l'environnement personnalisé "custom env" et afficher des avertissements supplémentaires si trouvés.
 * **doublecheck_env.py:** permet de s'assurer que les récompenses semblent correctes, que les épisodes se terminent et que le processus redémarre comme prévu. 
 * **hide_seek_learn.py:** pour former notre modèle RL et permettre à notre agent "Hider" de se cacher. 
-# Tech/Framework Utilisé
+# Q Learning/Framework:
+* **Reinforcement learning:**
+  est un domaine de l'apprentissage automatique qui s'intéresse à la manière dont les agents intelligents doivent entreprendre des actions dans un environnement afin de maximiser la notion de récompense cumulative.
 * **Stable baseline3 Framework:**
   Stable-Baselines3 (SB3) est une bibliothèque fournissant des implémentations fiables d'algorithmes d'apprentissage par renforcement qui sont basés sur OpenAI Baselines.. 
 * **GYM Framework:**
@@ -14,7 +16,7 @@ Ce projet représente une implémentation du jeu hider and seeker (cache-cache) 
 * **Turtle library:**
 "Turtle" est une fonction Python comme une planche à dessin, qui nous permet de commander une tortue pour qu'elle dessine partout. Lors de ce projet, on l'a utliser pour dessiner la matrice (12x12).
  
-# To run my model
+# Architecture/ Pipeline:
 ## 1.Environnement d'exécution 
 Afin de pouvoir exécuter ce code sur votre poste, vous devez d'aborder installer :
   * Python 3.6 ou +
