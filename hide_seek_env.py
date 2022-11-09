@@ -507,7 +507,7 @@ class hasEnv(gym.Env):
 		'##########')
 		#to dooooo
 		
-		self.prev_actions = deque(maxlen = MAX_DEPTH)  # however long we aspire the snake to be
+		self.prev_actions = deque(maxlen = MAX_DEPTH)  # 
 		for i in range(MAX_DEPTH):
 			self.prev_actions.append(-1) # to create history
 
