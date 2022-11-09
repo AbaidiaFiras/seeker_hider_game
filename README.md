@@ -2,7 +2,7 @@
 Ce projet représente une implémentation du jeu hider and seeker (cache-cache) en utilisant Reinforcement learning. Il est composé principalement de 4 fichiers:
 * **hide_seek_env.py:** qui est nécessaire pour créer notre environnement personnalisé custom env, ce fichier contient les méthodes nécessaires pour notre jeu  et l'environnement qui est la classe ```has_env```.
 * **checkenv.py:** qui permet de vérifier l'environnement personnalisé custom env et d'afficher des avertissements supplémentaires si nécessaire.
-* **doublecheck_env.py:** qui permet de vérifier l'environnement custom.
+* **doublecheck_env.py:** to make sure that rewards seem correct, episodes end, and restart all as expected. .
 * **hide_seek_learn.py:** pour former notre modèle RL et permettre à notre agent de se cacher. 
 # Tech/Framework Utilisé
 * **Stable baseline3 Framework:**
