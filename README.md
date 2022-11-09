@@ -15,9 +15,9 @@ Ce projet représente une implémentation du jeu hider and seeker (cache-cache) 
 "Turtle" est une fonction Python comme une planche à dessin, qui nous permet de commander une tortue pour qu'elle dessine partout. Lors de ce projet, on l'a utliser pour dessiner la matrice (12x12).
  
 # To run my model
-## 1.environnement d'éxécution 
+## 1.Environnement d'exécution 
 xxxxx
-## 2.préparer et vérifier l'environnement personnalisé (custom env)
+## 2.Préparer et vérifier l'environnement personnalisé (custom env)
 Pour commencer, notre environnement personnalisé (custom env qui est ```class hasEnv(gym.Env)```) est préparé dans hide_seek_env.py, on doit s'assurer de son fonctionnement avant de l'introduire au gym. Il suffit alors d'exécuter ce code, qui utilise une méthode de Stable Baseline3 SB3 dédié pour le test d'environnement: 
 ```bash
 python checkenv.py
@@ -27,7 +27,7 @@ Mais avant de passer à former notre modèle pour apprendre à se cacher, une v�
 ```bash
 python doublecheckenv.py
 ```
-## 3.formation du modèle 
+## 3.Formation du modèle 
 Il est temps d'essayer de former un modèle, on a choisi xxxxx
 ```bash
 python hide_seek_learn.py
