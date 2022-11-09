@@ -29,7 +29,7 @@ python doublecheckenv.py
 ```
 ## 3.Formation du modèle 
 Il est temps d'essayer de former un modèle. En effet la bibliothèque stable-baslines contient de nombreux algorithmes d'apprentissage par renforcement différents.
-Nous avons choisi PPO Proximal Policy Optimization, mais vous pouvez facilement changer l'algorithme  par un autre algorithme RL proposé par stable-baselines3 zoo [lien](https://stable-baselines3.readthedocs.io/en/master/guide/rl_zoo.html). 
+Nous avons choisi PPO Proximal Policy Optimization, mais vous pouvez facilement changer l'algorithme  par un autre algorithme RL proposé par [stable-baselines3 zoo](https://stable-baselines3.readthedocs.io/en/master/guide/rl_zoo.html). 
 
 
 ```bash
