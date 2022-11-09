@@ -1,7 +1,7 @@
-from snakeenv import SnekEnv
+from hide_seek_env import hasEnv
 
 
-env = SnekEnv()
+env = hasEnv()
 episodes = 50
 
 for episode in range(episodes):

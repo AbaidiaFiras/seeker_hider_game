@@ -505,7 +505,7 @@ class hasEnv(gym.Env):
 		'# ##   # #'
 		'#    #   #'
 		'##########')
-		#you need to change this ines
+		#to dooooo
 		
 		self.prev_actions = deque(maxlen = MAX_DEPTH)  # however long we aspire the snake to be
 		for i in range(MAX_DEPTH):
