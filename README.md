@@ -6,7 +6,7 @@ Ce projet représente une implémentation du jeu hider and seeker (cache-cache) 
 * **hide_seek_learn.py:** pour former notre modèle RL et permettre à notre agent "Hider" de se cacher. 
 # Tech/Framework Utilisé
 * **Stable baseline3 Framework:**
-  Stable-Baselines3 (SB3) est une bibliothèque fournissant des implémentations fiables d'algorithmes d'apprentissage par renforcement dans PyTorch. Elle offre une interface propre et simple,  donnant accès à des algorithmes d'apprentissage par renforcement sans modèle à la pointe de la technologie.
+  Stable-Baselines3 (SB3) est une bibliothèque fournissant des implémentations fiables d'algorithmes d'apprentissage par renforcement qui sont basés sur OpenAI Baselines.. 
 * **GYM Framework:**
   est une bibliothèque Python open source pour développer et comparer des algorithmes d'apprentissage par renforcement en fournissant une API standard pour communiquer entre les algorithmes d'apprentissage et les environnements, ainsi qu'un ensemble standard d'environnements conformes à cette API.
 * **Pygame :**
@@ -29,6 +29,9 @@ python doublecheckenv.py
 ```
 ## 3.Formation du modèle 
 Il est temps d'essayer de former un modèle, on a choisi xxxxx
+Proximal Policy Optimization, is a policy gradient method for reinforcement learning. 
+
+
 ```bash
 python hide_seek_learn.py
 ```
